@@ -1,26 +1,19 @@
-<!-- Target for toggling the sidebar `.sidebar-checkbox` is for regular
-     styles, `#sidebar-checkbox` for behavior. -->
-<input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
-
-<!-- Toggleable sidebar -->
-<div class="sidebar" id="sidebar">
-  <div class="sidebar-item">
-    <p>Hugo Osorio  </p>
-  </div>
-  <nav class="sidebar-nav">
-    <a class="sidebar-nav-item" href="http://hugoosorio.com/">Proyectos</a>
-    <a class="sidebar-nav-item" href="http://hugoosorio.com/fotografia.html">Fotografía</a>
-    <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Blog</a>
-    <a class="sidebar-nav-item" href="http://hugoosorio.com/acerca.html">Acerca</a>
-
-
-    <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
-  </nav>
-
-  <div class="sidebar-item">
-    <p>
-      &copy; {{ site.time | date: '%Y' }}. All rights reserved.
-      {{ site.description }}
-    </p>
-  </div>
-</div>
+<header>
+	<div class="row">
+		<div class="col-md-10 col-md-offset-1">
+		<div class="col-md-6">
+			<h1><a href="/">Hugo Osorio</a></h1>
+			<h3>Desarrollador web & diseñador de interacción.</h3>
+		</div>
+		<nav class="col-md-6">
+			<ul>
+				<li><a href="http://hugoosorio.com/">Trabajo</a></li>
+				<li><a href="http://hugoosorio.com/fotografia.html">Fotografía</a></li>
+				<li><a href="http://hugoosorio.com/acerca.html">Acerca</a></li>
+				<li class="current"><a href="{{ site.baseurl }}">Blog</a></li>
+				<li><a href="http://hugoosorio.com/en/index.html">en</a></li>
+			</ul>
+		</nav>
+		</div>
+	</div>
+</header>
