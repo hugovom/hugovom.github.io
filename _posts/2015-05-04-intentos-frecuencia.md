@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Intentos: Frecuencia
+title: Intentos Frecuencia
 ---
+
 
 ![_config.yml](/images/2015/05/04/frecuencia-1.png)
 ![_config.yml](/images/2015/05/04/frecuencia-2.png)
