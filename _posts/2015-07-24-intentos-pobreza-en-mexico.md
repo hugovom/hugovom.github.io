@@ -5,6 +5,7 @@ title: "Intentos: Pobreza en México"
 
 Visualización en línea: [Porcentaje de población en Pobreza en México (2010 a 2014)](http://gobiernofacil.com/herramientas/poblacion-en-pobreza-en-mexico/)
 
+![_config.yml](/images/2015/07/24/pobreza-en-mexico.gif)
 ![_config.yml](/images/2015/07/24/pobreza-0.png)
 ![_config.yml](/images/2015/07/24/pobreza-1.png)
 ![_config.yml](/images/2015/07/24/pobreza-2.png)
